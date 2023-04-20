@@ -96,4 +96,23 @@ body {
       }
     }
   }
+
+  #hero-section {
+    
+    #hero-section-row-1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      
+      #text-hero-section {
+        border: 1px solid red;
+        width: calc(50vw - 10px);
+      }
+      
+      #img-hero-section {
+        border: 1px solid red;
+        width: calc(50vw - 10px);
+      }
+    }
+  }
 }
