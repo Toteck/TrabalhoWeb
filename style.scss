@@ -9,6 +9,7 @@ body {
   background-color: #DCE9E2;
   padding: 0 5vw;
   border: 1px solid red;
+  position: relative;
   #barra-de-navegacao {
     border: 1px solid red;
     display: flex;
@@ -90,12 +91,15 @@ body {
 
         padding: 10px 24px;
 
-        transition: background-color 0.3s ease-in-out;
+        // transition: background-color 0.3s ease-in-out;
+        transition: transform 0.3s ease-in-out;
       }
 
       a:hover {
         background-color: #005846;
+        transform: scale(1.2);
         color: #f0fdfa;
+        cursor: pointer;
       }
     }
   }
@@ -114,7 +118,6 @@ body {
         width: calc(50vw - 10px);
         position: relative;
         top: 80px;
-        margin-right: 51px;
 
         h4 {
           margin-top: 0;
@@ -160,7 +163,7 @@ body {
           color: #495057;
         }
 
-        div {
+        a {
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -175,6 +178,10 @@ body {
           background: #00856F;
           border-radius: 40px;
 
+          text-decoration: none;
+
+          transition: transform 0.3s ease-in-out;
+
           span {
             font-family: 'DM Sans';
             font-style: normal;
@@ -188,12 +195,19 @@ body {
             flex: none;
             order: 1;
             flex-grow: 0;
+
           }
+        }
+
+        a:hover{
+          transform: scale(1.2);
         }
       }
       
       #img-hero-section {
         display: inline-block;
+        position: relative;
+        right: 70px;
         img {
           width: 100%;
         }
@@ -201,6 +215,82 @@ body {
         // width: calc(50vw - 10px);
         
       }
+    }
+
+    #hero-section-row-2 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      background: #FFFAF1;
+      /* Primary Colors/brand-green-light */
+      
+      border: 1px solid #DCE9E2;
+      border-radius: 6px;
+
+      box-sizing: border-box;
+
+      padding: 10vh 5vw;
+
+      position: absolute;
+      top: 571px;
+      left: 123px;
+      right: 123px;
+      z-index: 1;
+      
+      
+      width: calc(100% - 246px);
+      margin: 0 auto;
+      height: 210px;
+
+      #demarcado {
+          border-left: 1px solid #00856F;
+          border-right: 1px solid #00856F;
+        }
+
+      div {
+        
+        width: 33.3%;
+        display: block;
+        text-align: center;
+        height: 90px;
+
+        
+        // justify-content: center;
+        // align-items: center;
+        
+
+        h1 {
+          margin-top: 0px;
+          margin-bottom: 4px;
+
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 130%;
+
+          color: #212529;
+
+        }
+
+        h6 {
+          margin-top: 4px;
+          
+
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          
+          color: #00856F;
+        }
+
+    
+      }
+
+     
     }
   }
 }
