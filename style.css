@@ -1,4 +1,4 @@
-body {
+* {
   margin: 0;
   padding: 0;
   outline: none;
@@ -187,5 +187,74 @@ body {
         font-size: 16px;
         line-height: 150%;
         color: #00856F; }
+
+#servicos-section {
+  border: 3px solid blue;
+  background: #F7F9F9;
+  padding-bottom: 160px; }
+  #servicos-section #servicos-header {
+    margin-top: 263px;
+    margin-bottom: 64px;
+    text-align: center;
+    width: 100%; }
+    #servicos-section #servicos-header h5 {
+      margin-bottom: 16px;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.08em;
+      color: #00856F; }
+    #servicos-section #servicos-header h1 {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: center;
+      color: #212529; }
+  #servicos-section #content-cards {
+    width: calc(100% - 244px);
+    margin-left: 122px;
+    margin-right: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    #servicos-section #content-cards #content-cards-row-1 {
+      margin-bottom: 40px; }
+    #servicos-section #content-cards #content-cards-row-1, #servicos-section #content-cards #content-cards-row-2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      gap: 40px;
+      box-sizing: border-box; }
+      #servicos-section #content-cards #content-cards-row-1 div, #servicos-section #content-cards #content-cards-row-2 div {
+        width: 347px;
+        padding: 24px;
+        background: #FFFFFF;
+        border: 1px solid #DCE9E2;
+        border-radius: 6px; }
+        #servicos-section #content-cards #content-cards-row-1 div h5, #servicos-section #content-cards #content-cards-row-2 div h5 {
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 31px;
+          text-align: center;
+          color: #212529; }
+        #servicos-section #content-cards #content-cards-row-1 div img, #servicos-section #content-cards #content-cards-row-1 div h5, #servicos-section #content-cards #content-cards-row-2 div img, #servicos-section #content-cards #content-cards-row-2 div h5 {
+          margin-bottom: 16px; }
+        #servicos-section #content-cards #content-cards-row-1 div img, #servicos-section #content-cards #content-cards-row-1 div h5, #servicos-section #content-cards #content-cards-row-1 div p, #servicos-section #content-cards #content-cards-row-2 div img, #servicos-section #content-cards #content-cards-row-2 div h5, #servicos-section #content-cards #content-cards-row-2 div p {
+          text-align: left; }
+        #servicos-section #content-cards #content-cards-row-1 div p, #servicos-section #content-cards #content-cards-row-2 div p {
+          font-family: 'DM Sans';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: #495057; }
 
 /*# sourceMappingURL=style.css.map */
