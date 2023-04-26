@@ -257,4 +257,53 @@
           line-height: 150%;
           color: #495057; }
 
+#sobre-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFAF1; }
+  #sobre-section #sobre-section-img {
+    margin: 25vh 5vw 20vh 8vw; }
+  #sobre-section #sobre-section-texto {
+    margin: 10vh 8vw 10vh 0px; }
+    #sobre-section #sobre-section-texto div h6 {
+      margin-bottom: 3vh;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 150%;
+      letter-spacing: 0.08em;
+      color: #00856F; }
+    #sobre-section #sobre-section-texto div h1 {
+      margin-bottom: 4.5vh;
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      color: #212529; }
+    #sobre-section #sobre-section-texto div p {
+      font-family: 'DM Sans';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: #495057; }
+
+#contato-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  #contato-section #contato-section-texto {
+    margin-top: 10vh;
+    margin-left: 9vw;
+    margin-bottom: 10vh;
+    margin-right: 4vw; }
+  #contato-section #contato-section-img {
+    margin-top: 25vh;
+    margin-right: 9vw; }
+
 /*# sourceMappingURL=style.css.map */
